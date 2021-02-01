@@ -7,7 +7,7 @@
 
 // ***
 // *** Define the size of the matrix. The LED strip is
-// *** still wired as a sngle strip, but arranged in a
+// *** still wired as a single strip, but arranged in a
 // *** matrix (square or rectangle).
 // ***
 #define MATRIX_ROWS     16
@@ -53,7 +53,7 @@ uint16_t _offset = 0;
 void loop()
 {
   // ***
-  // *** Animate the red and whte stripes.
+  // *** Animate the red and white stripes.
   // ***
   for (int row = 1; row <= MATRIX_ROWS; row++)
   {
